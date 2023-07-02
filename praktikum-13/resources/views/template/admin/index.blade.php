@@ -200,13 +200,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/toko/admin" class="nav-link">
+                <a href="/toko/products/admin" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Produk</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/toko/customers" class="nav-link">
+                <a href="/toko/customers/customers" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pelanggan</p>
                 </a>

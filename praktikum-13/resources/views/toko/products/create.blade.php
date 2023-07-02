@@ -4,7 +4,7 @@
 
 <h2>FORM INPUT PRODUK</h2>
 
-<form action="{{ route('produk.store') }}" method="POST">
+<form action="{{ route('produk.create') }}" method="POST">
     @csrf
     <div class = "form-group">
         <label for="name">Nama Produk</label>

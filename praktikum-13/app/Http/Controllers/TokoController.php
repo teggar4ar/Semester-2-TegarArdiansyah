@@ -13,9 +13,13 @@ class TokoController extends Controller
     public function index(){
         return view('toko/index');
     }
-    public function detail(){
-        return view('toko/products/detail');
-    
+
+    public function about() {
+        return view('toko/about');
+    }
+
+    public function detail() {
+        return view('toko/detail');
     }
 
     public function admin(){
@@ -32,7 +36,8 @@ class TokoController extends Controller
         $request->validate([
             'name' => 'required',
             'price' => 'required',
-            'description' => 'required',
+            'description' => 'required'
+            ,
 
         ]);
         Product::create($request->all());

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 
 /*
@@ -53,8 +54,11 @@ Route::prefix('toko')->group(function(){
         [TokoController::class,'index']);
 
 
-    Route::get('products/detail',
+    Route::get('detail',
         [TokoController::class,'detail']);
+
+    Route::get('about',
+            [TokoController::class,'about']);
 
 
 
